@@ -1,0 +1,19 @@
+.footerFlex {
+    display: flex;
+    border-top: 1px solid #F0F0F0;
+    width: 100%;
+    height: 56px;
+    transition: all 0.5s;
+    position: absolute;
+    bottom: 0;
+    padding: 5px 0;
+    background: white;
+}
+.footer-logo {
+    flex: 1;
+    text-align: center;
+    color: 	#B8B8B8;
+}
+.active {
+    color: #00bcd4;
+}

@@ -1,0 +1,124 @@
+.date-list {
+    background: #00bcd4;
+    display: flex;
+    padding: 5px 0;
+    color: white;
+    height: 83px;
+    box-sizing: content-box;
+    transition: all 0.5s;
+}
+.date-list-footer-hidden {
+    height: 0;
+    padding: 0;
+}
+.date-list-left {
+    display: flex;
+    flex: 4;
+    width: 100%;
+    height: 100%;
+}
+.date-item {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 5px 2px;
+    border-radius: 5px;
+    // border: 1px solid red;
+}
+.date-item-active {
+    background: white;
+    color: #00bcd4;
+}
+.more {
+    flex: 1;
+    border-left: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    .icon-rili {
+        font-size: 25px;
+    }
+}
+.journey-list {
+    height: 300px;
+    overflow: scroll;
+}
+.journey-item {
+    display: flex;
+    padding: 10px 0;
+    width: 100%;
+    .address, .bottom, .type{
+        color: #C8C8C8;
+        font-size: 13px;
+    }
+}
+.journey-left {
+    flex: 5;
+    .top {
+        display: flex;
+        .start, .routerLine, .end {
+           flex: 1;
+        }
+        .end {
+            display: flex;
+            justify-content: flex-end;
+            flex-wrap: wrap;
+        }
+        .routerLine {
+            color: #C8C8C8;
+            position: relative;
+            .line {
+                width: 100%;
+                height: 50%;
+                border-bottom: 1px solid #C8C8C8;
+            }
+            .line::after {
+                content: '';
+                position: absolute;
+                top: 19px;
+                right: 0;
+                width: 6px;
+                height: 6px;
+                display: inline-block;
+                transform-origin: bottom right;
+                border-right: 1px solid #C8C8C8;
+                transform: rotate(-60deg);
+            }
+        }
+    }
+    .time {
+        font-size: 22px;
+    }
+}
+.journey-right {
+    flex: 2;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    .totalMoney {
+        color: orange;
+        font-size: 20px;
+    }
+    .riseHot {
+        background: orange;
+        color: white;
+        width: 60px;
+        font-size: 12px;
+        box-sizing: border-box;
+        height: 14px;
+        line-height: 14px;
+        border-radius: 2px;
+    }
+}
+
+@import "$yo-config/core/reset";
+@import "$yo-config/layout/yo-root";
+@import "$yo-config/layout/yo-flex";
+@import "$yo-config/fragment/yo-list";
+
+.m-list {
+    background-color: #eeeeee;
+    height: 600px;
+}

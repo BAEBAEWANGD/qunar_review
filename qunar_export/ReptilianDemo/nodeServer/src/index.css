@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+#input {
+    width: 400px;
+    height: 30px;
+    padding-left: 20px;
+    border: 2px solid #E0E0E0;
+    border-radius: 5px;
+    font-size: 15px;
+    outline: none;
+    color: gray;
+    font-weight: bold;
+}
+#addText {
+    width: 60px;
+    height: 35px;
+    background: #3399FF;
+    border-radius: 5px;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.table {
+    margin-top: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+tr th {
+    background: #E0E0E0;
+}
+tr td, tr th {
+    padding: 5px 10px;
+}
+tr {
+    border-bottom: 1px solid #E0E0E0;
+    height: 50px;
+}
+.caption a {
+    color: #3399FF;
+    text-decoration: none;
+}
