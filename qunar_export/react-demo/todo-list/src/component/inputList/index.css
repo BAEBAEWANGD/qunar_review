@@ -1,0 +1,38 @@
+footer {
+    margin-top: 20px;
+}
+.task {
+    height: 45px;
+    line-height: 45px;
+    font-weight: bold;
+    text-align: center;
+}
+.inputTask {
+    margin-left: 20px;
+    display: inline-block;
+}
+.inputTask input {
+    width: 400px;
+    height: 35px;
+    padding-left: 20px;
+    border: 2px solid #E0E0E0;
+    border-radius: 5px;
+    font-size: 15px;
+    outline: none;
+    color: gray;
+    font-weight: bold
+}
+.submitBox {
+    text-align: right;
+}
+#submit {
+    width: 100px;
+    height: 35px;
+    background: #3399FF;
+    border-radius: 5px;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 13px 55px 13px 13px;
+}
